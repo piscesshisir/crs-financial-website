@@ -1,0 +1,367 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lynx Finance Consulting - Your Trusted Financial and Accounting Partner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333; /* Dark gray for general text */
+        }
+        /* Custom colors for Tailwind */
+        .bg-lynx-blue { background-color: #2563EB; } /* A shade of blue */
+        .text-lynx-blue { color: #2563EB; }
+        .bg-lynx-golden { background-color: #F59E0B; } /* A shade of golden */
+        .text-lynx-golden { color: #F59E0B; }
+        .bg-lynx-gray { background-color: #F3F4F6; } /* Light gray */
+        .text-lynx-gray { color: #4B5563; } /* Darker gray for text */
+        .border-lynx-blue { border-color: #2563EB; }
+
+        /* Hero section background image */
+        .hero-bg {
+            background-image: url('https://placehold.co/1920x1080/E0E7FF/000000?text=Professional+Finance+Meeting'); /* Placeholder image */
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Smooth scroll for navigation */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-white">
+
+    <header class="bg-white shadow-md py-4 px-6 md:px-10 sticky top-0 z-50">
+        <nav class="container mx-auto flex justify-between items-center flex-wrap">
+            <div class="flex items-center text-2xl font-bold text-lynx-blue">
+                <svg class="w-8 h-8 mr-2 text-lynx-golden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l3 3a1 1 0 001.414-1.414L11 9.586V6z" clip-rule="evenodd"></path>
+                </svg>
+                Lynx Finance Consulting
+            </div>
+
+            <div class="block lg:hidden">
+                <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-lynx-blue border-lynx-blue hover:text-lynx-golden hover:border-lynx-golden">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                </button>
+            </div>
+
+            <div id="nav-content" class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0">
+                <ul class="text-lg lg:flex-grow lg:flex lg:justify-end items-center">
+                    <li><a href="#home" class="block mt-4 lg:inline-block lg:mt-0 text-lynx-gray hover:text-lynx-blue px-4 py-2 rounded-lg transition duration-300">Home</a></li>
+                    <li><a href="#about" class="block mt-4 lg:inline-block lg:mt-0 text-lynx-gray hover:text-lynx-blue px-4 py-2 rounded-lg transition duration-300">About</a></li>
+                    <li><a href="#services" class="block mt-4 lg:inline-block lg:mt-0 text-lynx-gray hover:text-lynx-blue px-4 py-2 rounded-lg transition duration-300">Services</a></li>
+                    <li><a href="#resources" class="block mt-4 lg:inline-block lg:mt-0 text-lynx-gray hover:text-lynx-blue px-4 py-2 rounded-lg transition duration-300">Resources</a></li>
+                    <li><a href="#contact" class="block mt-4 lg:inline-block lg:mt-0 text-lynx-gray hover:text-lynx-blue px-4 py-2 rounded-lg transition duration-300">Contact</a></li>
+                </ul>
+                <a href="#contact" class="inline-block text-white bg-lynx-blue hover:bg-lynx-golden px-6 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300 ml-0 lg:ml-6 mt-4 lg:mt-0 text-base font-semibold">Request a Consultation</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-bg relative h-screen flex items-center justify-center text-center">
+        <div class="absolute inset-0 bg-black opacity-60"></div>
+        <div class="relative z-10 text-white p-6 max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 drop-shadow-xl">Your Trusted Financial and Accounting Partner</h1>
+            <p class="text-lg md:text-xl mb-8 opacity-90 drop-shadow-md">Serving individuals and businesses with integrity and precision across Nepal.</p>
+            <a href="#contact" class="inline-block bg-lynx-golden hover:bg-yellow-600 text-white text-lg font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105">Schedule a Free Consultation</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 bg-white px-6 md:px-10">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-4xl font-bold text-center text-lynx-blue mb-10">About Lynx Finance Consulting</h2>
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="text-lg text-lynx-gray leading-relaxed">
+                    <p class="mb-4">Lynx Finance Consulting Pvt. Ltd. is a leading financial and accounting consulting firm based in Nepal, dedicated to providing comprehensive and personalized services. We understand the unique challenges and opportunities within the Nepalese financial landscape.</p>
+                    <p class="mb-4">Our mission is to empower our clients – from individuals and startups to established corporations – with the financial clarity and strategic insights they need to thrive. We achieve this by offering personalized service, ensuring meticulous Nepal tax compliance, and providing robust business support.</p>
+                    <p>We are committed to building long-term relationships based on trust, transparency, and a deep understanding of your financial goals.</p>
+                </div>
+                <div class="flex justify-center">
+                    <img src="https://placehold.co/600x400/D1E0FF/000000?text=Modern+Office+Meeting" alt="About Us Image" class="rounded-xl shadow-lg w-full h-auto object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-16 bg-lynx-gray px-6 md:px-10">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-4xl font-bold text-center text-lynx-blue mb-12">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-lynx-golden mb-4">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
+                            <path fill-rule="evenodd" d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A1 1 0 0011.379 3H8.621a1 1 0 00-.707.293L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-lynx-blue mb-3">Tax Planning & Preparation</h3>
+                    <p class="text-lynx-gray">Expert guidance for individuals and businesses to optimize tax liabilities and ensure timely compliance with Nepalese tax laws.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-lynx-golden mb-4">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 002-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-lynx-blue mb-3">Bookkeeping & Payroll</h3>
+                    <p class="text-lynx-gray">Accurate and efficient management of your daily financial transactions and payroll processing, ensuring smooth operations.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-lynx-golden mb-4">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                            <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-lynx-blue mb-3">Business Advisory & CFO Services</h3>
+                    <p class="text-lynx-gray">Strategic financial insights and fractional CFO support to help your business make informed decisions and achieve growth.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-lynx-golden mb-4">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M3 3a1 1 0 00-1 1v12a1 1 0 102 0V4a1 1 0 00-1-1zm10.293 9.293a1 1 0 001.414 0l4-4a1 1 0 000-1.414l-4-4a1 1 0 00-1.414 1.414L14.586 9H7a1 1 0 100 2h7.586l-2.293 2.293a1 1 0 000 1.414z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-lynx-blue mb-3">Financial Statement Preparation</h3>
+                    <p class="text-lynx-gray">Accurate and compliant preparation of financial statements for reporting, analysis, and decision-making.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-lynx-golden mb-4">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M9 9a2 2 0 114 0 2 2 0 01-4 0zm0 1.5a.5.5 0 00-.5.5v3a.5.5 0 00.5.5h4a.5.5 0 00.5-.5v-3a.5.5 0 00-.5-.5H9z" clip-rule="evenodd"></path>
+                            <path d="M10 2a8 8 0 100 16 8 8 0 000-16zm-5 8a5 5 0 1110 0 5 5 0 01-10 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-lynx-blue mb-3">Tax Representation</h3>
+                    <p class="text-lynx-gray">Professional representation and support during tax audits and disputes with tax authorities.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-lynx-golden mb-4">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l3 3a1 1 0 001.414-1.414L11 9.586V6z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-lynx-blue mb-3">Accounting Software Consulting</h3>
+                    <p class="text-lynx-gray">Assistance with selecting, implementing, and optimizing accounting software solutions for your business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white px-6 md:px-10">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-4xl font-bold text-center text-lynx-blue mb-12">Why Choose Lynx Finance Consulting?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                <div class="p-6 rounded-xl shadow-md bg-lynx-gray/20">
+                    <div class="text-lynx-golden mb-4 flex justify-center">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-lynx-blue mb-2">Trusted Advisors</h3>
+                    <p class="text-lynx-gray">Our team comprises highly qualified and experienced financial professionals.</p>
+                </div>
+
+                <div class="p-6 rounded-xl shadow-md bg-lynx-gray/20">
+                    <div class="text-lynx-golden mb-4 flex justify-center">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M5 5a3 3 0 016 0v2A3 3 0 015 7V5zm10 4a3 3 0 11-6 0v2a3 3 0 116 0V9z" clip-rule="evenodd"></path>
+                            <path d="M12 11a1 1 0 100 2h1a1 1 0 100-2h-1z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-lynx-blue mb-2">Nepal Based Expertise</h3>
+                    <p class="text-lynx-gray">Deep understanding of local regulations, tax laws, and business environment.</p>
+                </div>
+
+                <div class="p-6 rounded-xl shadow-md bg-lynx-gray/20">
+                    <div class="text-lynx-golden mb-4 flex justify-center">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-lynx-blue mb-2">20+ Years of Experience</h3>
+                    <p class="text-lynx-gray">Proven track record of success and client satisfaction over two decades.</p>
+                </div>
+
+                <div class="p-6 rounded-xl shadow-md bg-lynx-gray/20">
+                    <div class="text-lynx-golden mb-4 flex justify-center">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2h2a1 1 0 000-2H9z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-lynx-blue mb-2">Personalized Attention</h3>
+                    <p class="text-lynx-gray">Tailored solutions that meet your specific financial needs and goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-lynx-blue text-white px-6 md:px-10">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-4xl font-bold text-center mb-12">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg text-lynx-gray">
+                    <p class="italic mb-4">"Lynx Finance Consulting transformed our accounting process. Their expertise in Nepalese tax laws is unparalleled. Highly recommended!"</p>
+                    <p class="font-semibold text-lynx-blue">- Mr. Ramesh Thapa, CEO, Tech Innovations</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg text-lynx-gray">
+                    <p class="italic mb-4">"The team at Lynx provides personalized and prompt service. They truly care about our financial well-being and growth."</p>
+                    <p class="font-semibold text-lynx-blue">- Ms. Sita Devi, Small Business Owner</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg text-lynx-gray">
+                    <p class="italic mb-4">"Their business advisory services have been invaluable. Lynx Finance Consulting is a true partner in our success."</p>
+                    <p class="font-semibold text-lynx-blue">- Dr. Binod Sharma, Medical Professional</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="py-16 bg-white px-6 md:px-10">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-4xl font-bold text-center text-lynx-blue mb-12">Resources</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-lynx-gray/20 p-8 rounded-xl shadow-md text-center hover:shadow-lg transition duration-300">
+                    <div class="text-lynx-golden mb-4 flex justify-center">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2H6a2 2 0 01-2-2V4zm2 0v12h8V4H6zm2 2h4a1 1 0 010 2H8a1 1 0 010-2zm0 4h4a1 1 0 010 2H8a1 1 0 010-2z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-lynx-blue mb-3">Tax Tools</h3>
+                    <p class="text-lynx-gray mb-4">Access useful tools and guides for Nepalese tax calculations and compliance.</p>
+                    <a href="#" class="text-lynx-blue hover:text-lynx-golden font-semibold">Explore Tools &rarr;</a>
+                </div>
+
+                <div class="bg-lynx-gray/20 p-8 rounded-xl shadow-md text-center hover:shadow-lg transition duration-300">
+                    <div class="text-lynx-golden mb-4 flex justify-center">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2H6a2 2 0 01-2-2V4zm2 0v12h8V4H6zm2 2h4a1 1 0 010 2H8a1 1 0 010-2zm0 4h4a1 1 0 010 2H8a1 1 0 010-2z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-lynx-blue mb-3">Blog Articles</h3>
+                    <p class="text-lynx-gray mb-4">Stay informed with our latest insights on finance, accounting, and business trends.</p>
+                    <a href="#" class="text-lynx-blue hover:text-lynx-golden font-semibold">Read Our Blog &rarr;</a>
+                </div>
+
+                <div class="bg-lynx-gray/20 p-8 rounded-xl shadow-md text-center hover:shadow-lg transition duration-300">
+                    <div class="text-lynx-golden mb-4 flex justify-center">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2H6zm0 2h8v12H6V4z" clip-rule="evenodd"></path>
+                            <path fill-rule="evenodd" d="M8 7a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1zm0 4a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-lynx-blue mb-3">Financial Calculators</h3>
+                    <p class="text-lynx-gray mb-4">Utilize our free online calculators for various financial planning needs.</p>
+                    <a href="#" class="text-lynx-blue hover:text-lynx-golden font-semibold">Use Calculators &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-lynx-gray px-6 md:px-10">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-4xl font-bold text-center text-lynx-blue mb-12">Contact Us</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-semibold text-lynx-blue mb-6">Request a Consultation</h3>
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="block text-lynx-gray text-sm font-bold mb-2">Name</label>
+                            <input type="text" id="name" name="name" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-lynx-blue" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-lynx-gray text-sm font-bold mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-lynx-blue" placeholder="your@example.com" required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-lynx-gray text-sm font-bold mb-2">Message</label>
+                            <textarea id="message" name="message" rows="6" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-lynx-blue" placeholder="Tell us about your needs..." required></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-lynx-blue hover:bg-lynx-golden text-white font-bold py-3 px-6 rounded-full shadow-md hover:shadow-lg transition duration-300">Send Message</button>
+                    </form>
+                </div>
+
+                <div>
+                    <div class="bg-white p-8 rounded-xl shadow-lg mb-8">
+                        <h3 class="text-2xl font-semibold text-lynx-blue mb-6">Our Details</h3>
+                        <p class="text-lynx-gray mb-3 flex items-center">
+                            <svg class="w-6 h-6 mr-3 text-lynx-golden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                            Kathmandu, Nepal
+                        </p>
+                        <p class="text-lynx-gray mb-3 flex items-center">
+                            <svg class="w-6 h-6 mr-3 text-lynx-golden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.774a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
+                            +977-XXXXXXXXXX
+                        </p>
+                        <p class="text-lynx-gray flex items-center">
+                            <svg class="w-6 h-6 mr-3 text-lynx-golden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                            info@lynxfinance.com
+                        </p>
+                    </div>
+                    <div class="rounded-xl shadow-lg overflow-hidden">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14130.983935276366!2d85.3188556!3d27.6948777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb0f2353579cdce87!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1678892000000!5m2!1sen!2snp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8 px-6 md:px-10">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+            <div class="mb-4 md:mb-0">
+                <ul class="flex flex-wrap justify-center md:justify-start space-x-4">
+                    <li><a href="#" class="hover:text-lynx-golden transition duration-300">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-lynx-golden transition duration-300">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="flex space-x-6 mb-4 md:mb-0">
+                <a href="#" class="text-white hover:text-lynx-golden transition duration-300">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.529 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.93 0-1.09.39-1.983 1.029-2.68a3.57 3.57 0 01.1-.715s.837-.268 2.75-.951c.85-.236 1.75-.356 2.65-.356.9 0 1.8.12 2.65.356 1.913.683 2.75.951 2.75.951.055.203.1.41.1.715.639.697 1.028 1.59 1.028 2.68 0 3.828-2.339 4.67-4.566 4.92.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="#" class="text-white hover:text-lynx-golden transition duration-300">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.505 1.492-3.89 3.776-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="text-sm text-gray-400">
+                &copy; <span id="current-year"></span> Lynx Finance Consulting Pvt. Ltd. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Get the current year for the copyright notice
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Mobile navigation toggle functionality
+        const navToggle = document.getElementById('nav-toggle');
+        const navContent = document.getElementById('nav-content');
+
+        navToggle.addEventListener('click', () => {
+            navContent.classList.toggle('hidden');
+        });
+
+        // Close mobile nav when a link is clicked (for smooth scrolling)
+        const navLinks = navContent.querySelectorAll('a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (!navContent.classList.contains('hidden') && window.innerWidth < 1024) { // 1024px is Tailwind's 'lg' breakpoint
+                    navContent.classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
